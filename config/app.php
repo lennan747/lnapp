@@ -165,7 +165,8 @@ return [
         /*
          * Package Service Providers...
          */
-
+        // 短信服务
+        App\Providers\EasySmsServiceProvider::class,
         /*
          * Application Service Providers...
          */
