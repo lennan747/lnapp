@@ -27,5 +27,7 @@ $api->version('v1', [
         $api->post('verificationCodes', 'VerificationCodesController@store');
         // 用户注册
         $api->post('users', 'UsersController@store');
+        // 图片验证码
+        $api->post('captchas', 'CaptchasController@store');
     });
 });
