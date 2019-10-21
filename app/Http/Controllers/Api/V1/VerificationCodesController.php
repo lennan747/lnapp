@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Api\Controller;
+use App\Http\Requests\Api\V1\VerificationCodeRequest;
+use Illuminate\Support\Facades\Cache;
+use Overtrue\EasySms\EasySms;
 
 class VerificationCodesController extends Controller
 {
@@ -27,10 +30,10 @@ class VerificationCodesController extends Controller
             }
         }
 
+        // 缓存验证码{phone,code} 10分钟过期。
         $key = 'verificationCode_'.str_random(15);
         $expiredAt = now()->addMinutes(10);
-        // 缓存验证码 10分钟过期。
-        \Cache::put($key, ['phone' => $phone, 'code' => $code], $expiredAt);
+        Cache::put($key, ['phone' => $phone, 'code' => $code], $expiredAt);
 
         return $this->response->array([
             'key' => $key,
