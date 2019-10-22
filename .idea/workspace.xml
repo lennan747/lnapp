@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d252383-66fa-4c33-b64b-5c2f39a141e2" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lnapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lnapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+>>>>>>> 75ccf37ede1ba72365acaecbcb46ede99160a139
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +27,17 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+=======
         <entry file="file://$PROJECT_DIR$/.env.example">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+            <state relative-caret-position="759">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+>>>>>>> 75ccf37ede1ba72365acaecbcb46ede99160a139
             </state>
           </provider>
         </entry>
@@ -177,7 +195,7 @@
       <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -312,9 +330,13 @@
       <option name="presentableId" value="Default" />
       <updated>1571563481776</updated>
       <workItem from="1571563492193" duration="303000" />
+<<<<<<< HEAD
+      <workItem from="1571622072552" duration="14945000" />
+      <workItem from="1571707116434" duration="662000" />
+=======
       <workItem from="1571622072552" duration="14499000" />
-      <workItem from="1571662773602" duration="5495000" />
-      <workItem from="1571746335261" duration="637000" />
+      <workItem from="1571662773602" duration="5283000" />
+>>>>>>> 75ccf37ede1ba72365acaecbcb46ede99160a139
     </task>
     <task id="LOCAL-00001" summary="修改models目录">
       <created>1571627712930</created>
@@ -365,31 +387,41 @@
       <option name="project" value="LOCAL" />
       <updated>1571640322142</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00008" summary="安装跨域请求库 cors配置&#10;fractal库安装 fractal是一个数据转化层">
+      <created>1571654602662</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571654602662</updated>
+=======
     <task id="LOCAL-00008" summary="mark">
       <created>1571670940565</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1571670940566</updated>
+>>>>>>> 75ccf37ede1ba72365acaecbcb46ede99160a139
     </task>
-    <task id="LOCAL-00009" summary="安装第三放登录库">
-      <created>1571671810916</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1571671810916</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20934000" />
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="15910000" />
+=======
+    <option name="totallyTimeSpent" value="20085000" />
+>>>>>>> 75ccf37ede1ba72365acaecbcb46ede99160a139
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14791666" />
+=======
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239584" />
+>>>>>>> 75ccf37ede1ba72365acaecbcb46ede99160a139
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -423,20 +455,18 @@
     <MESSAGE value="节流处理，防止攻击" />
     <MESSAGE value="注册&#10;1.手机号换取图片验证码&#10;2.图片验证码获取手机验证码&#10;3.写入数据库" />
     <MESSAGE value="手机号注册完成" />
+<<<<<<< HEAD
+    <MESSAGE value="安装跨域请求库&#10;fractal库安装&#10;fractal是一个数据转化层" />
+    <MESSAGE value="安装跨域请求库 cors配置&#10;fractal库安装 fractal是一个数据转化层" />
+    <option name="LAST_COMMIT_MESSAGE" value="安装跨域请求库 cors配置&#10;fractal库安装 fractal是一个数据转化层" />
+=======
     <MESSAGE value="mark" />
-    <MESSAGE value="安装第三放登录库" />
-    <option name="LAST_COMMIT_MESSAGE" value="安装第三放登录库" />
+    <option name="LAST_COMMIT_MESSAGE" value="mark" />
+>>>>>>> 75ccf37ede1ba72365acaecbcb46ede99160a139
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/easysms.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -493,6 +523,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/Api/V1/CaptchaRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -524,6 +556,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 75ccf37ede1ba72365acaecbcb46ede99160a139
     <entry file="file://$PROJECT_DIR$/config/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="708">
@@ -595,8 +628,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+<<<<<<< HEAD
+        <state relative-caret-position="504">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+=======
+        <state relative-caret-position="759">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+>>>>>>> 75ccf37ede1ba72365acaecbcb46ede99160a139
         </state>
       </provider>
     </entry>
