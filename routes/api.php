@@ -19,6 +19,7 @@ $api->version('v1', [
     'namespace' => 'App\Http\Controllers\Api\V1',
     'middleware' => ['serializer:array','cors']
 ], function($api) {
+    // 登录注册请求
     $api->group([
         'middleware' => 'api.throttle',
         'limit' => config('api.rate_limits.sign.limit'),
@@ -38,6 +39,7 @@ $api->version('v1', [
         $api->delete('authorizations/current', 'AuthorizationsController@destroy');
     });
 
+    // 其他请求
     $api->group([
         'middleware' => 'api.throttle',
         'limit' => config('api.rate_limits.access.limit'),
